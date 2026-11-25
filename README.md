@@ -1,4 +1,4 @@
-# signalpipe-io
+# SignalPipe
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-signalpipe-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://signalpipe.io/
+SignalPipe provides a buying‑intent judgement layer for AI agents. It analyses any text—Reddit posts, Slack messages, emails, support tickets—and three AI judges independently assess whether the author is a real buyer, returning a verdict and a drafted reply. Available via REST or MCP, pricing starts at $29 / month.
+
+**Areas:** Company · AI · BuyingIntent · LeadScoring · Automation
+
+## SignalPipe on APIs.io
+
+Everything profiled for SignalPipe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/signalpipe-io/](https://apis.io/providers/signalpipe-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [SignalPipe Actions API](https://apis.io/apis/signalpipe-io/signalpipe-io-actions-api/) — The Actions API from SignalPipe — 4 operation(s) for actions.
+- [SignalPipe Companion API](https://apis.io/apis/signalpipe-io/signalpipe-io-companion-api/) — The Companion API from SignalPipe — 1 operation(s) for companion.
+- [SignalPipe Health API](https://apis.io/apis/signalpipe-io/signalpipe-io-health-api/) — The Health API from SignalPipe — 1 operation(s) for health.
+- [SignalPipe Products API](https://apis.io/apis/signalpipe-io/signalpipe-io-products-api/) — The Products API from SignalPipe — 5 operation(s) for products.
+- [SignalPipe Quiet Hours API](https://apis.io/apis/signalpipe-io/signalpipe-io-quiet-hours-api/) — The Quiet Hours API from SignalPipe — 1 operation(s) for quiet hours.
+- [SignalPipe Scout API](https://apis.io/apis/signalpipe-io/signalpipe-io-scout-api/) — The Scout API from SignalPipe — 2 operation(s) for scout.
+- [SignalPipe Signal API](https://apis.io/apis/signalpipe-io/signalpipe-io-signal-api/) — The Signal API from SignalPipe — 2 operation(s) for signal.
+- [SignalPipe Stations API](https://apis.io/apis/signalpipe-io/signalpipe-io-stations-api/) — The Stations API from SignalPipe — 5 operation(s) for stations.
+- [SignalPipe Sync API](https://apis.io/apis/signalpipe-io/signalpipe-io-sync-api/) — The Sync API from SignalPipe — 1 operation(s) for sync.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SignalPipe Agentic Access](https://apis.io/agentic-access/signalpipe-io/signalpipe-io-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [Mission](https://apis.io/schemas/signalpipe-io/signalpipe-io-mission/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Signalpipe Io Context](https://apis.io/jsonld/signalpipe-io/signalpipe-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SignalPipe API Rules](https://apis.io/rules/signalpipe-io/signalpipe-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SignalPipe Authentication](https://apis.io/security/signalpipe-io/signalpipe-io-authentication/)
+- [SignalPipe Domain Security](https://apis.io/security/signalpipe-io/signalpipe-io-domain-security/)
+- [SignalPipe Vulnerability Disclosure](https://apis.io/security/signalpipe-io/signalpipe-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [SignalPipe Plans Pricing](https://apis.io/plans/signalpipe-io/signalpipe-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://signalpipe.io/)
+- [API reference](https://signalpipe.io/llms.txt)
+- [Pricing](https://signalpipe.io/pricing)
+- [Changelog](https://signalpipe.io/changelog)
+- [Security](https://signalpipe.io/security)
+- [Terms of service](https://signalpipe.io/terms)
+- [Privacy policy](https://signalpipe.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 51.1** — developing · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 55.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 23.8 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 40.9 |
+
+**Agent readiness 47.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/signalpipe-io/](https://apis.io/providers/signalpipe-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SignalPipe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/signalpipe-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
